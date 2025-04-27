@@ -11,7 +11,7 @@
 #include <unistd.h>
 #include <sys/mman.h>
 
-#define HASH_SIZE 1073741824  // Must be power of 2
+#define HASH_SIZE (1 << 20)  // Must be power of 2
 #define MAX_STATION_NAME 100
 
 // Structure to hold temperature statistics
