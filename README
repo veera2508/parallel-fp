@@ -1,0 +1,7 @@
+1. Make sure to install the 1brc submodule and all it's requirements
+
+2. To create the txt files with the rows, follow the readme given in the 1brc submodule
+
+3. make all to create both hybrid and cuda files
+
+4. ./1brc-hybrid [filename] and ./1brc-cuda [filename] to run the code on the files
